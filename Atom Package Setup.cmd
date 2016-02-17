@@ -1,0 +1,13 @@
+apm install advanced-open-file
+apm install autocomplete-modules
+apm install docblockr
+apm install editorconfig
+apm install emmet
+apm install file-icons
+apm install highlight-line
+apm install language-babel
+apm install last-cursor-position
+apm install linter-eslint
+apm install pretty-json
+apm install react
+apm install sort-lines
