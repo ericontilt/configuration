@@ -1,0 +1,38 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+m ctrl+o",
+        "command": "editor.foldAll",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+m ctrl+l",
+        "command": "editor.unfoldAll",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+m ctrl+m",
+        "command": "editor.unfold",
+        "when": "editorFocus"
+    }
+]
