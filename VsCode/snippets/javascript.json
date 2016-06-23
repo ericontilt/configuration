@@ -1,0 +1,77 @@
+{
+    /*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+    "Jasmine Test suite": {
+        "prefix": "jdesc",
+        "body": [
+            "describe('${description}', () => {",
+            "\t$0",
+            "});"
+        ],
+        "description": "Define a new test suite"
+    },
+
+    "Jasmine Spec": {
+        "prefix": "jit",
+        "body": [
+            "it('$1', () => {",
+            "\t$0",
+            "});"
+        ],
+        "description": "Define a spec"
+    },
+
+    "Jasmine Test Setup": {
+        "prefix": "jbeach",
+        "body": [
+            "beforeEach(() => {",
+            "\t$0",
+            "});"
+        ],
+        "description": "Define a test setup"
+    },
+
+    "Jasmine Spy": {
+        "prefix": "jspy",
+        "body": [
+            "spyOn($1, '$2').and.returnValue($3);"
+        ],
+        "description": "Sets up a jasmine spy on an existing object"
+    },
+
+    "Jasmine Spy Called Expectation": {
+        "prefix": "jsc",
+        "body": [
+            "expect($1).toHaveBeenCalled();"
+        ],
+        "description": "Defines an invocation expectation for a spy"
+    },
+
+    "Jasmine Spy Called With Expectation": {
+        "prefix": "jscw",
+        "body": [
+            "expect($1).toHaveBeenCalledWith($2);"
+        ],
+        "description": "Defines a parameterized invocation expectation for a spy"
+    },
+
+    "Jasmine Eq Expectation": {
+        "prefix": "jexeq",
+        "body": [
+            "expect($1).toEqual($2);"
+        ],
+        "description": "Defines an expectation for equality"
+    }
+}
